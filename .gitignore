@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env                # Ignore .env file
+.env.local          # Ignore local overrides
+.env.*.local        # Ignore other local env files (e.g., .env.development.local)
